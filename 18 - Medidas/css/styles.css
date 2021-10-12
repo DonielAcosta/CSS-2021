@@ -59,20 +59,41 @@
       min-height: Indica el alto minimo que puede alcanzar el elemento.
       max-height: Indica el alto máximo que puede alcanzar el elemento.
 */
+html{
+  height: 300px;
+}
 
 body{
+  margin: 0;
   background-color: #333;
   color: blueviolet ;
+  height: 500px;
+}
+.header{
+  background-color: darkblue;
+  text-align: center;
+}
+.box{
+  width: 300px;
+  height: 300px;
+  background-color: darkgoldenrod;
+}
+.box-children{
+  position: sticky ;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background-color: darkorchid ;
 }
 /* .title{
   font-size: 2rem;
 
 } */
 
-.link{
+/* .link{
   background-color: crimson;
   color: #333;
   padding: 1em 2em;
   border-radius: 0.5em;
   font-size: 2 rem;
-}
+} */
